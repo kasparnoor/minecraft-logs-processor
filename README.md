@@ -40,11 +40,9 @@ python main.py
 
 ## Features
 
-Go into the repository:
-
 1. Extract only messages sent by users
 1. Extract messages sent by users and whispers (/msg, /r, etc)
-
+2. 
 More coming soon and false positives to be fixed!
 
 ## Author
