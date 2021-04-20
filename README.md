@@ -7,7 +7,7 @@
   <a href="https://github.com/kasparnoor/minecraft-logs-processor/blob/master/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/kasparnoor/minecraft-logs-processor" />
   </a>
-  <a href="https://github.com/kasparnoor/minecraft-logs-processor/blob/master/" target="_blank">
+  <a href="https://github.com/kasparnoor/minecraft-logs-processor" target="_blank">
     <img alt="Stars" src="https://img.shields.io/github/stars/kasparnoor/minecraft-logs-processor" />
   </a>
 </p>
