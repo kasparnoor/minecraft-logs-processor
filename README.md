@@ -4,7 +4,7 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/kasparnoor/minecraft-logs-processor/blob/master/LICENSE.md" target="_blank">
+  <a href="https://github.com/kasparnoor/minecraft-logs-processor/blob/master/" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/kasparnoor/Minecraft Logs Processer" />
   </a>
 </p>
