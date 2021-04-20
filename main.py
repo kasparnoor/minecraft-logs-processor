@@ -42,28 +42,47 @@ def main():
 
     if os.path.exists("output.txt"):
         os.remove("output.txt")
-    f = open('log.txt', 'r', encoding='utf-8')
+
     y = open('output.txt', 'w', encoding='utf-8')
+
+    what_to_do = input(
+        "What would you like to do today?\n\n1 - show only chat messages\n2 - show chat messages and whispers (/msg and /reply)\n\nMode: ")
+
+    if what_to_do != '1' and what_to_do != '2':
+        print("\nInvalid choice, please enter 1 or 2")
+        quit()
+
+    file_name_input = input(
+        "\n\nWhat is your input log name? (eg log.txt)\n\nFile name: ")
+
+    if '.' not in file_name_input:
+        print("\nLooks like you didn't specify the file extensions (eg .txt)")
+        quit()
+
+    try:
+        f = open(file_name_input, 'r', encoding='utf-8')
+    except:
+        print("\nThere was an error trying to open " + file_name_input +
+              "\n Are you sure that the file exists in this directory?")
+        quit()
 
     all_lines = f.readlines()
 
-    what_to_do = input(
-        "What would you like to do today?\n\n1 - show only chat messages\n2 - show chat messages and whispers (/msg and /reply)\n\nChoose: ")
-
-    if what_to_do != '1' and what_to_do != '2':
-        print("Invalid choice, please enter 1 or 2")
-        quit()
+    seperator = input(
+        "\n\nWhat seperator do you use for messages? (eg if message looks like this Notch > Hey! the seperator would be >)\n\nSeperator: ")
 
     if what_to_do == '1':
+        print("\n\nProcessing:")
         for x in tqdm(all_lines):
-            if ">" not in x:
+            if seperator not in x:
                 continue
             else:
                 y.write(x)
 
     if what_to_do == '2':
+        print("\n\nProcessing:")
         for x in tqdm(all_lines):
-            if ">" not in x and "/msg" not in x and "/r" not in x and "/message" not in x and "/whisper" not in x:
+            if seperator not in x and "/msg" not in x and "/r" not in x and "/message" not in x and "/whisper" not in x:
                 continue
             else:
                 y.write(x)
@@ -74,7 +93,6 @@ def main():
 
     if save_choice == 'n':
         print("\nThank you for using MLP!")
-        z.close()
         f.close()
         y.close()
         time.sleep(3)
