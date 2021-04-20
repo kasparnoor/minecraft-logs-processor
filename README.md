@@ -1,3 +1,4 @@
+ <script async defer src="https://buttons.github.io/buttons.js"></script>
 <h1 align="center">Welcome to Minecraft Logs Processer 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
