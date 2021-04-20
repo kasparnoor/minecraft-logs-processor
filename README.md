@@ -19,19 +19,22 @@
 ## Install
 
 ```sh
- 
+git clone https://github.com/kasparnoor/minecraft-logs-processor/
 ```
 
 ## Usage
 
+Go into the repository:
 ```sh
-git clone https://github.com/kasparnoor/minecraft-logs-processor/ cd minecraft-logs-processor and install requirements with pip install -r requirements.txt finally run the program with python main.py
+cd minecraft-logs-processor
 ```
-
-## Run tests
-
+Install requirements:
 ```sh
- 
+pip install -r requirements.txt
+```
+Run the script:
+```sh
+python main.py
 ```
 
 ## Author
@@ -42,7 +45,7 @@ git clone https://github.com/kasparnoor/minecraft-logs-processor/ cd minecraft-l
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kasparnoor/minecraft-logs-processor/issues). You can also take a look at the [contributing guide]( ).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kasparnoor/minecraft-logs-processor/issues).
 
 ## Show your support
 
@@ -52,6 +55,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [Kaspar Noor](https://github.com/kasparnoor).<br />
 This project is [MIT](https://github.com/kasparnoor/minecraft-logs-processor/LICENSE.md) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
