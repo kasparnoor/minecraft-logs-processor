@@ -47,7 +47,7 @@ More coming soon and false positives to be fixed!
 
 ## Notes
 
-When using the first 2 methods, it's recommended to use a not-so-common seperator between user and message like `>` (then it would be: [Iron rank] Notch > Hello world!). I am trying to improve the script so it detects better without a special seperator.
+When using the first 2 methods, it's recommended to use a not-so-common seperator between user and message like `>` (then in chat it'd be: `[Iron] Notch > Hello world!`). I am trying to improve the script so it detects better without a special seperator.
 
 ## Author
 
