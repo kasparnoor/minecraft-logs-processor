@@ -7,6 +7,7 @@
   <a href="https://github.com/kasparnoor/minecraft-logs-processor/blob/master/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/kasparnoor/minecraft-logs-processor" />
   </a>
+  <a class="github-button" href="https://github.com/kasparnoor/minecraft-logs-processor" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-    star" data-size="large" data-show-count="true" aria-label="Star kasparnoor/minecraft-logs-processor on GitHub">Star</a>
 </p>
 
 > MLP is a python script that lets you process your Minecraft server logs to better understand them and gather important data from them.
