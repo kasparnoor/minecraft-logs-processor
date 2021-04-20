@@ -18,6 +18,7 @@
 
 ## Install
 
+Clone the repository from github:
 ```sh
 git clone https://github.com/kasparnoor/minecraft-logs-processor/
 ```
