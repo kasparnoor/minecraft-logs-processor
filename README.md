@@ -16,6 +16,8 @@
 
 ### 🏠 [Homepage](https://github.com/kasparnoor/minecraft-logs-processor/)
 
+## Please do not learn from my code! I'm a beginner, feel free to improve the code.
+
 ## Install
 
 Clone the repository from github:
