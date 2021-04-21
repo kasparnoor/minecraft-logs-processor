@@ -95,9 +95,7 @@ class Main:
                 <meta name="title" content="Minecraft Logs Processor">
                 <meta name="theme-color" content="#51AE59">
                 <meta name="color" content="#51AE59">
-
-
-                <link rel="stylesheet" href="https://raw.githubusercontent.com/kasparnoor/minecraft-logs-processor/master/style.css">
+                <style>@import "https://rawcdn.githack.com/kasparnoor/minecraft-logs-processor/f292926a984300aea697adf11a54eda0b43f0f89/style.css";</style>
                 <link rel="icon" href="favicon.ico">
 
                 <title>Minecraft Logs Processor</title>
@@ -217,13 +215,12 @@ class Main:
             print("\nThank you for using MLP!")
             f.close()
             y.close()
-            g.close()
             time.sleep(3)
             quit()
         else:
             random_output_name = ''.join(random.choices(
                 string.ascii_uppercase + string.digits, k=30))
-            if output_method == 1:
+            if output_method == '1':
                 y = open('output.txt', 'r', encoding='utf-8')
                 z = open('output-' + random_output_name +
                          '.txt', 'w', encoding='utf-8')
@@ -233,7 +230,7 @@ class Main:
                 z.write("https://github.com/kasparnoor/minecraft-logs-processor")
                 z.close()
                 f.close()
-            if output_method == 2:
+            if output_method == '2':
                 g = open('log.html', 'r', encoding='utf-8')
                 z = open('log-' + random_output_name +
                          '.html', 'w', encoding='utf-8')
