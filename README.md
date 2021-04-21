@@ -68,4 +68,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Kaspar Noor](https://github.com/kasparnoor).<br />
-This project is [MIT](https://github.com/kasparnoor/minecraft-logs-processor/LICENSE.md) licensed.
+This project is [MIT](https://github.com/kasparnoor/minecraft-logs-processor/blob/master/LICENSE.md) licensed.
