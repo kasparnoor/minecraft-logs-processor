@@ -97,7 +97,7 @@ class Main:
                 <meta name="color" content="#51AE59">
 
 
-                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="https://raw.githubusercontent.com/kasparnoor/minecraft-logs-processor/master/style.css">
                 <link rel="icon" href="favicon.ico">
 
                 <title>Minecraft Logs Processor</title>
