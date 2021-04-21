@@ -1,0 +1,216 @@
+* {
+  overflow-x: hidden;
+}
+body {
+  background-color: #0a0a0a !important;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+a {
+  color: #51ae59;
+}
+
+tr {
+  max-width: 100%;
+}
+
+.line-number {
+  padding-right: 7.5px;
+  /* background-color: #0F1114; */
+  font-weight: bold !important;
+  text-align: center;
+  top: 5px;
+  vertical-align: top;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line-content {
+  padding-left: 10px;
+  text-align: left !important;
+  width: 100%;
+}
+
+.pre-whitespace {
+  white-space: pre;
+}
+
+.line-number::selection {
+  color: none;
+  background: none;
+}
+
+.console-date {
+  color: #93a1a1;
+}
+
+.console-level-info {
+  color: #aeeae5;
+}
+
+.console-level-warning {
+  color: #cb4b16;
+}
+
+.console-level-severe {
+  color: #d33682;
+}
+
+.console-source-connection {
+  color: #93a1a1;
+}
+
+.console-source-server {
+  color: #859900;
+}
+
+.console-source-rcon {
+  color: #c54245;
+}
+
+.console-source-multicraft {
+  color: #2aa198;
+}
+
+.console-source-loader {
+  color: #57bb60;
+}
+
+.console-version {
+  background-color: #f55;
+  color: white;
+}
+
+.console-ip-addr {
+  color: #268bd2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.console-hide {
+  display: none;
+}
+
+.console-col-white {
+  color: #fff;
+}
+
+.console-col-yellow {
+  color: #ff0;
+}
+
+.console-col-lpurple {
+  color: #f5f;
+}
+
+.console-col-red {
+  color: #f55;
+}
+
+.console-col-aqua {
+  color: #5ff;
+}
+
+.console-col-green {
+  color: #5f5;
+}
+
+.console-col-blue {
+  color: #55f;
+}
+
+.console-col-dgray {
+  color: #555;
+}
+
+.console-col-gray {
+  color: #aaa;
+}
+
+.console-col-gold {
+  color: #fa0;
+}
+
+.console-col-dpurple {
+  color: #a0a;
+}
+
+.console-col-dred {
+  color: #a00;
+}
+
+.console-col-daqua {
+  color: #0aa;
+}
+
+.console-col-dgreen {
+  color: #0a0;
+}
+
+.console-col-dblue {
+  color: #00a;
+}
+
+.console-col-black {
+  color: #000;
+}
+
+.console-uname {
+  color: #2aa198;
+}
+
+.console-connection {
+  color: #93a1a1;
+}
+
+.errors-detected {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  width: 20rem;
+  text-align: right;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.errors-detected h2 {
+  margin-bottom: 10px;
+}
+
+.error {
+  background-color: #15171a;
+  text-align: left;
+  border-left: 4px solid #b34545;
+  padding: 5px 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.error-title {
+  font-size: 1.35em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.error-solution {
+  margin-top: 10px;
+}
+
+span.white [style] {
+  color: white !important;
+}
